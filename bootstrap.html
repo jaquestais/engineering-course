@@ -1,0 +1,177 @@
+<!-- Atividade Prática 10 - Containers com BootStrap
+
+​Título da Prática: Construindo uma página Web Responsiva com Containers Bootstrap
+​Objetivos: Esta atividade tem como objetivo permitir que você pratique e aplique o conhecimento adquirido durante a aula sobre a implementação de Containers utilizando o framework Bootstrap.
+​Materiais, Métodos e Ferramentas: Um editor de texto de sua escolha (ex: Visual Studio Code, Sublime Text, Atom, etc.), navegador web e Bootstrap (Você pode linkar o Bootstrap via CDN ou fazer o download da biblioteca para o seu projeto)
+
+​Atividade Prática
+
+1. Crie uma página Web que inclua um cabeçalho, um corpo e um rodapé.
+2. No cabeçalho, adicione o nome da sua página web e um menu de navegação com pelo menos três itens.
+3. No corpo da página, adicione três seções diferentes usando containers do Bootstrap. Cada seção deve incluir um título e um parágrafo de texto.
+4. No rodapé, adicione um copyright com o ano atual.
+5. Aplique estilos à sua página usando classes do Bootstrap, como por exemplo as classes para cores de fundo e texto.
+6. Certifique-se de que sua página é responsiva e se adapta a diferentes tamanhos de tela.​ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="container bg-light">
+    <header>
+      <h1 class="text-primary">Atividade Bootstrap</h1>
+      <nav class="navbar navbar-expand bg-body-tertiary">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#mais">Mais</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 id="home" class="text-secondary">Home</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc nunc
+          consectetur libero, nec tincidunt nunc nunc nec nunc. Nulla facilisi.
+          Sed auctor, nunc nec lacinia tincidunt, nunc nunc consectetur libero,
+          nec tincidunt nunc nunc nec nunc. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Magnam alias voluptates rem vel, odio
+          possimus assumenda ea doloribus velit corrupti expedita molestias.
+          Temporibus ipsam, id sint alias ducimus reiciendis aspernatur. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Alias quis eligendi
+          repudiandae voluptatum vitae maiores, consequuntur veritatis
+          dignissimos amet quod maxime, molestias magni rem fuga ipsam ad
+          tempora, ab repellat! Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla facilisi. Sed auctor, nunc nec lacinia
+          tincidunt, nunc nunc consectetur libero, nec tincidunt nunc nunc nec
+          nunc. Nulla facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc
+          nunc consectetur libero, nec tincidunt nunc nunc nec nunc. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Magnam alias voluptates
+          rem vel, odio possimus assumenda ea doloribus velit corrupti expedita
+          molestias. Temporibus ipsam, id sint alias ducimus reiciendis
+          aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias quis eligendi repudiandae voluptatum vitae maiores, consequuntur
+          veritatis dignissimos amet quod maxime, molestias magni rem fuga ipsam
+          ad tempora, ab repellat!Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla facilisi. Sed auctor, nunc nec lacinia
+          tincidunt, nunc nunc consectetur libero, nec tincidunt nunc nunc nec
+          nunc. Nulla facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc
+          nunc consectetur libero, nec tincidunt nunc nunc nec nunc. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Magnam alias voluptates
+          rem vel, odio possimus assumenda ea doloribus velit corrupti expedita
+          molestias. Temporibus ipsam, id sint alias ducimus reiciendis
+          aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias quis eligendi repudiandae voluptatum vitae maiores, consequuntur
+          veritatis dignissimos amet quod maxime, molestias magni rem fuga ipsam
+          ad tempora, ab repellat!
+        </p>
+      </section>
+      <section>
+        <h2 id="sobre" class="text-secondary">Sobre</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc nunc
+          consectetur libero, nec tincidunt nunc nunc nec nunc. Nulla facilisi.
+          Sed auctor, nunc nec lacinia tincidunt, nunc nunc consectetur libero,
+          nec tincidunt nunc nunc nec nunc. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Magnam alias voluptates rem vel, odio
+          possimus assumenda ea doloribus velit corrupti expedita molestias.
+          Temporibus ipsam, id sint alias ducimus reiciendis aspernatur. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Alias quis eligendi
+          repudiandae voluptatum vitae maiores, consequuntur veritatis
+          dignissimos amet quod maxime, molestias magni rem fuga ipsam ad
+          tempora, ab repellat! Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla facilisi. Sed auctor, nunc nec lacinia
+          tincidunt, nunc nunc consectetur libero, nec tincidunt nunc nunc nec
+          nunc. Nulla facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc
+          nunc consectetur libero, nec tincidunt nunc nunc nec nunc. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Magnam alias voluptates
+          rem vel, odio possimus assumenda ea doloribus velit corrupti expedita
+          molestias. Temporibus ipsam, id sint alias ducimus reiciendis
+          aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias quis eligendi repudiandae voluptatum vitae maiores, consequuntur
+          veritatis dignissimos amet quod maxime, molestias magni rem fuga ipsam
+          ad tempora, ab repellat!Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla facilisi. Sed auctor, nunc nec lacinia
+          tincidunt, nunc nunc consectetur libero, nec tincidunt nunc nunc nec
+          nunc. Nulla facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc
+          nunc consectetur libero, nec tincidunt nunc nunc nec nunc. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Magnam alias voluptates
+          rem vel, odio possimus assumenda ea doloribus velit corrupti expedita
+          molestias. Temporibus ipsam, id sint alias ducimus reiciendis
+          aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias quis eligendi repudiandae voluptatum vitae maiores, consequuntur
+          veritatis dignissimos amet quod maxime, molestias magni rem fuga ipsam
+          ad tempora, ab repellat!
+        </p>
+      </section>
+      <section>
+        <h2 id="mais" class="text-secondary">Mais</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc nunc
+          consectetur libero, nec tincidunt nunc nunc nec nunc. Nulla facilisi.
+          Sed auctor, nunc nec lacinia tincidunt, nunc nunc consectetur libero,
+          nec tincidunt nunc nunc nec nunc. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Magnam alias voluptates rem vel, odio
+          possimus assumenda ea doloribus velit corrupti expedita molestias.
+          Temporibus ipsam, id sint alias ducimus reiciendis aspernatur. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Alias quis eligendi
+          repudiandae voluptatum vitae maiores, consequuntur veritatis
+          dignissimos amet quod maxime, molestias magni rem fuga ipsam ad
+          tempora, ab repellat! Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla facilisi. Sed auctor, nunc nec lacinia
+          tincidunt, nunc nunc consectetur libero, nec tincidunt nunc nunc nec
+          nunc. Nulla facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc
+          nunc consectetur libero, nec tincidunt nunc nunc nec nunc. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Magnam alias voluptates
+          rem vel, odio possimus assumenda ea doloribus velit corrupti expedita
+          molestias. Temporibus ipsam, id sint alias ducimus reiciendis
+          aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias quis eligendi repudiandae voluptatum vitae maiores, consequuntur
+          veritatis dignissimos amet quod maxime, molestias magni rem fuga ipsam
+          ad tempora, ab repellat!Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla facilisi. Sed auctor, nunc nec lacinia
+          tincidunt, nunc nunc consectetur libero, nec tincidunt nunc nunc nec
+          nunc. Nulla facilisi. Sed auctor, nunc nec lacinia tincidunt, nunc
+          nunc consectetur libero, nec tincidunt nunc nunc nec nunc. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Magnam alias voluptates
+          rem vel, odio possimus assumenda ea doloribus velit corrupti expedita
+          molestias. Temporibus ipsam, id sint alias ducimus reiciendis
+          aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Alias quis eligendi repudiandae voluptatum vitae maiores, consequuntur
+          veritatis dignissimos amet quod maxime, molestias magni rem fuga ipsam
+          ad tempora, ab repellat!
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 - Atividade Bootstrap</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
